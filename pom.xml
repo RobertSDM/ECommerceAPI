@@ -10,8 +10,9 @@
 	</parent>
 	<groupId>ponto.ecommerce</groupId>
 	<artifactId>api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>EcommerceAPI</name>
+	<packaging>jar</packaging>
 	<description>Backend system to manage client shopping carts, purchases and storage management</description>
 	<url/>
 	<licenses>
@@ -72,6 +73,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>ecmmAPI_build</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
